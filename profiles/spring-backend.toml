@@ -1,0 +1,22 @@
+name = "Spring Backend"
+description = "Kotlin과 Spring Boot 기반의 REST 백엔드"
+
+[stack]
+language = "Kotlin"
+framework = "Spring Boot"
+database = "PostgreSQL"
+
+[development]
+tdd = true
+commit_style = "conventional"
+testing = "JUnit 5 + Spring Boot Test"
+
+[architecture]
+style = "layered"
+api = "REST"
+
+[docs]
+intent = true
+prd = true
+architecture = true
+adr = true

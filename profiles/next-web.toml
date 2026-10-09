@@ -1,0 +1,22 @@
+name = "Next Web"
+description = "TypeScript와 Next.js App Router 기반의 웹 애플리케이션"
+
+[stack]
+language = "TypeScript"
+framework = "Next.js (App Router)"
+database = "Project choice"
+
+[development]
+tdd = true
+commit_style = "conventional"
+testing = "Vitest + Testing Library"
+
+[architecture]
+style = "feature-oriented"
+api = "Server Components + Route Handlers"
+
+[docs]
+intent = true
+prd = true
+architecture = true
+adr = true

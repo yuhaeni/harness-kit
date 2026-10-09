@@ -1,0 +1,22 @@
+name = "Generic"
+description = "언어와 프레임워크를 정하지 않는 최소 하네스"
+
+[stack]
+language = "Project choice"
+framework = "Project choice"
+database = "Project choice"
+
+[development]
+tdd = false
+commit_style = "project-default"
+testing = "project-default"
+
+[architecture]
+style = "project-default"
+api = "project-default"
+
+[docs]
+intent = true
+prd = true
+architecture = true
+adr = false
